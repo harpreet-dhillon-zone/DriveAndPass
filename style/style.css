@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* nav css */
+
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+
+.navbar{
+    min-height: 88px;
+}
+
+.navbar-brand img{
+    width: 180px;
+    margin-left: 15px;
+}
+
+/* title line css */
+
+#titleline{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#titlelineContainer{
+    background-color: rgba(225, 219, 219, 0.565);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    color: #0d6efd;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* content section */
+
+#contentContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 40px;
+}
+
+.paraContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 15px;
+    color: #3f3c3c;
+    font-size: 1.1em;
+}
+.paraContainer p{
+    flex: 2;
+}
+.paraContainer img{
+    flex: 1;
+}
+
+
+
+
+
+/* cards code*/
+
+.cardcontainer{
+    margin-top: 50px;
+    color: #3f3c3c;
+    margin-bottom: 50px;
+}
+
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/*contact us code */
+
+.contactuscontainer{
+    min-height: 30vh;
+    background-color: rgba(225, 219, 219, 0.565);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+ 
+
+.contactinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactinfo .btn{
+    padding: 10px;
+}
+
+.blueclr{
+    color: #0d6efd;
+}
+
+
+/* footer code */
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 249, 249);
+    padding: 115px;
+    box-sizing: border-box;
+    margin-top: 110px;
+}
+
+.busin-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.busin-info h2:nth-child(2){
+    font-size: 1.7em;
+}
+
+.contact-links{
+    margin-top: 75px;
+}
+
+.contact-links ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.locations{
+    margin-top: 75px;
+}
+
+.buildings{
+    display: flex;
+    gap: 40px;
+}
+
+.email-link{
+    text-align: right;
+}
+
+.calculater h1{
+    
+    margin: 30px auto 35px 20px;
+    font-size: 2.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* image code */
+
+.mapcontainer img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.imageholder{
+    display: flex;
+    justify-content: center;
+}
+
+.contactuscontainer{
+    margin-top: 40px;
+}
+
+/* about us code */
+
+.aboutUsContainer{
+    margin-top: 70px;
+}
+
+.spaceFront{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.aboutUsContainer h4{
+    margin-top: 40px;
+}
+
+.aboutUsContainer ul li{
+    margin-top: 10px;
+}
+
+
+/* services page */
+
+.licensseBox img{
+    width: auto;
+    max-height: 230px;
+}
+
+
+.boxContent{
+    display: flex;
+    gap: 10px;
+}
+
+.boxContent{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-bottom: 50px;
+}
+
+.licensseBox{
+    margin-top: 50px;
+}
+
+.licensseBox h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+/* testimonal code */
+
+.commentBox p{
+    font-style: italic;
+}
+
+.commentBox h5{
+    font-size: 1.2em;
+}
+
+.commentBox{
+    background-color: #ede6e6;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 15px;
+    color: black;
+}
+
+/* gallery css */
+
+.carousel-item img{
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pictureContainer img{
+    max-width: 400px;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.pictureContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel{
+    margin-bottom: 95px;
+}
+
+
+/* tos page */
+
+.titleContainer{
+    text-align: center;
+}
+
+.policies h5{
+    text-decoration: underline;
+}
+
+.policies ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.policies ul li{
+    margin: 10px;
+    font-weight: 1.2em;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .busin-info{
+        flex-direction: column;
+    }
+    
+    footer{
+        padding: 30px;
+    }
+
+    .email-link h2{
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (max-width: 990px) {
+    .paraContainer{
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .contactuscontainer{
+        flex-direction: column;
+    }
+
+    .contactuscontainer p{
+        padding: 20px;
+    }
+
+    .titlelineContainer{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+    .boxContent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .licensseBox img{
+        max-width: 230px;
+        
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .pictureContainer img{
+        max-width: 270px;
+    }
+
+    .policies ul{
+        width: 100%;
+    }
+
+    .navbar-brand img{
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .email-link h2{
+        font-size: 0.8em;
+    }
+
+}
